@@ -14,6 +14,7 @@ public class PerimeterAssignmentRunner {
 
     public double getAverageLength(Shape s) {
         // Put code here
+        int x;
         double length = getPerimeter(s);
         double numSides = (double) getNumPoints(s);
         double avgLength = length / numSides;
