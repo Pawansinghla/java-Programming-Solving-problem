@@ -41,8 +41,8 @@ public class PerimeterAssignmentRunner {
         int lastPointX = lastPoint.getX();
         double largestX = (double) lastPointX;
         
-        for(Point p : s.getPoints()){
-            int newX = p.getX();
+        for(Point p1 : s.getPoints()){
+            int newX = p1.getX();
             if(newX > largestX) {
                 largestX = (double) newX;
             }
